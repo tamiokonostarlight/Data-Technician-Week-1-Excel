@@ -2,527 +2,255 @@
 
 ## 📌 Project Overview
 
-This repository showcases the Excel projects I completed during **Week 1 of my Data Technician Bootcamp**.
+This repository showcases my Excel projects completed during **Week 1 of my Data Technician Bootcamp**.
 
-The week focused on developing practical Excel skills for working with real-world datasets, including **data organisation, data cleaning, calculations, filtering, sorting, lookups, PivotTables, conditional formatting, data categorisation and visualisation**.
+The projects focused on using Excel to organise, clean, analyse and visualise data across **retail sales, student performance and bike sales datasets**.
 
-Across the projects, I worked with **retail sales data, student performance data and bike sales data**. The exercises were designed to develop my ability to take raw or structured datasets, analyse them using Excel and turn the results into meaningful information that could support business decisions.
-
-The projects also gave me experience thinking beyond simply completing formulas. I considered how the techniques could be applied in a professional environment, such as identifying trends in customer behaviour, comparing business performance across markets and communicating insights to decision-makers.
+The work allowed me to build a foundation in Excel-based data analysis and understand how these techniques can be applied to real-world business problems.
 
 ---
 
-## 🎯 Key Objectives
+## 🧠 What I Learned
 
-The main objectives of the Week 1 projects were to:
+During Week 1, I developed practical experience in:
 
-* Develop confidence working with Excel datasets
-* Structure data using Excel Tables
-* Clean and prepare data for analysis
-* Use formulas and functions to perform calculations
-* Filter and sort data to identify relevant information
-* Use lookup functions to connect information between tables
-* Create PivotTables to summarise larger datasets
-* Categorise data using logical functions
-* Create charts to communicate findings visually
-* Identify trends, patterns and differences within datasets
-* Develop the ability to communicate data findings in a business context
+- Creating and formatting Excel Tables
+- Filtering and sorting datasets
+- Using formulas and functions
+- `SUM`, `AVERAGE`, `MAX`, `COUNT` and `COUNTIF`
+- `VLOOKUP`
+- `IF` and `CONCAT`
+- PivotTables
+- PivotCharts
+- The `SWITCH` function
+- Conditional formatting
+- Basic data cleaning
+- Identifying trends and patterns
+- Presenting data through visualisations
 
----
-
-# 🛠️ Excel Skills Demonstrated
-
-## 1. Excel Tables
-
-I practised converting datasets into structured Excel Tables rather than working with unstructured ranges of cells.
-
-Using Tables makes datasets easier to manage because they can be filtered, sorted and referenced consistently. Tables are particularly useful in real-world environments where datasets are regularly updated.
-
-### Real-world application
-
-In a business environment, I could use an Excel Table to manage:
-
-* Customer records
-* Sales transactions
-* Employee information
-* Financial data
-* Project tracking information
-* Operational performance data
-
-This would make it easier to update datasets and perform analysis without repeatedly changing ranges manually.
+A key takeaway was understanding that Excel can be used not only to calculate numbers, but to **turn raw data into information that can support business decisions**.
 
 ---
 
-## 2. Filtering and Sorting
+# 🛍️ Project 1 – Retail Sales Analysis
 
-I used Excel's filtering and sorting functions to investigate datasets and focus on specific information.
+### Dataset
+**Retail Sales Dataset**
 
-For example, in the retail sales exercise, I filtered **Age from largest to smallest** and worked with the available sales information to investigate the dataset.
+### Objective
 
-### Real-world application
+The objective was to work with retail sales data and practise structuring, filtering and analysing transactional information.
 
-Filtering and sorting are useful when a business analyst needs to quickly answer questions such as:
+### What I Did
 
-* Which customers are the oldest or youngest?
-* Which products generated the highest sales?
-* Which transactions exceed a particular value?
-* Which regions are performing above or below expectations?
-* Which records require further investigation?
+I:
 
-Rather than manually searching through hundreds or thousands of rows, filtering allows the relevant records to be isolated quickly.
+- Converted the dataset into an Excel Table
+- Used filters to sort customer information
+- Calculated total commission using `SUM`
+- Calculated average commission using `AVERAGE`
+- Worked with lookup functions to retrieve information from related data
 
----
+### 💡 Skills Demonstrated
 
-# 🧮 3. Excel Formulas and Functions
+**Excel Tables | Filtering | Sorting | SUM | AVERAGE | VLOOKUP**
 
-A key part of the project was developing my understanding of Excel formulas and how they can be used to turn raw data into useful information.
+### 💼 Real-World Application
 
-## SUM
+These techniques could be used in a sales or finance environment to analyse transactions, calculate revenue or commission, compare customer activity and quickly identify high-value records.
 
-I used the `SUM` function to calculate the **total commission** in the retail sales exercise.
-
-### Real-world application
-
-`SUM` can be used to calculate:
-
-* Total sales
-* Total revenue
-* Total commission
-* Total expenses
-* Total hours worked
-* Total budgets
-
-For example, a business could use `SUM` to calculate total monthly sales from individual transactions.
+For example, a sales team could use similar analysis to monitor sales performance and identify customers or transactions requiring further attention.
 
 ---
 
-## AVERAGE
+# 🎓 Project 2 – Student Grades Analysis
 
-I used `AVERAGE` to calculate the **average commission** in the retail sales exercise.
+### Dataset
+**Student Grades**
 
-### Real-world application
+### Objective
 
-Average calculations can help businesses understand typical performance.
+The objective was to analyse student performance across English, Mathematics and Science.
 
-For example:
+### What I Did
 
-* Average order value
-* Average sales per employee
-* Average customer spend
-* Average monthly revenue
-* Average employee performance score
+I:
 
-This can help identify whether individual results are above or below the overall average.
+- Structured the dataset as an Excel Table
+- Calculated average scores
+- Identified the highest score using `MAX`
+- Used filtering and sorting
+- Applied conditional formatting to make differences in performance easier to identify
 
----
+### 💡 Skills Demonstrated
 
-## MAX
+**Excel Tables | AVERAGE | MAX | Filtering | Sorting | Conditional Formatting**
 
-I used `MAX` within the student grades analysis to identify the **highest score** achieved by each student.
+### 💼 Real-World Application
 
-### Real-world application
+Although the dataset focuses on student performance, the same approach can be applied to business performance data.
 
-`MAX` can be used to identify the highest:
-
-* Sales value
-* Customer spend
-* Exam score
-* Monthly revenue
-* Project cost
-* Performance result
-
-This can help businesses identify their strongest-performing areas.
+For example, a company could analyse employee KPIs, sales targets or customer service scores to identify stronger and weaker areas of performance.
 
 ---
 
-## COUNT and COUNTIF
+# 🚲 Project 3 – Bike Sales Analysis
 
-I also developed experience with counting functions such as `COUNT` and `COUNTIF`.
+### Dataset
+**Bike Sales**
 
-These functions can be used to count records and identify how many values meet a particular condition.
+### Objective
 
-### Real-world application
+The objective was to use PivotTables to explore sales performance across different customer and geographic categories.
 
-For example, a business could use these functions to answer:
+### What I Did
 
-* How many customers purchased a product?
-* How many employees achieved a target?
-* How many transactions exceeded £1,000?
-* How many customers belong to a particular segment?
+I used PivotTables to analyse sales across:
 
-This allows numerical information to be converted into useful business metrics.
+- Country
+- Age group
+- Gender
+- Product categories
 
----
+This allowed me to summarise the data and identify patterns without manually analysing individual records.
 
-## VLOOKUP
+### 💡 Skills Demonstrated
 
-I also practised using `VLOOKUP` to retrieve information from another table.
+**PivotTables | Data Summarisation | Filtering | Trend Analysis**
 
-### Real-world application
+### 💼 Real-World Application
 
-Lookup functions are particularly useful when working with multiple datasets.
+PivotTables can be used by sales and business analysts to quickly investigate performance across different regions, products and customer segments.
 
-For example, a company may have:
-
-**Customer Table**
-
-| Customer ID | Customer Name |
-| ----------- | ------------- |
-| C001        | Customer A    |
-| C002        | Customer B    |
-
-and a separate transaction table containing Customer IDs.
-
-A lookup can be used to connect the information, reducing the need to manually copy information between datasets.
-
-This type of functionality is useful for combining information from different business records.
+For example, a company could use a PivotTable to identify which products are performing best in each region and where sales may require further investigation.
 
 ---
 
-# 🔄 4. Data Cleaning
+# 🔀 Project 4 – Sales Categorisation Using SWITCH
 
-The projects also introduced practical data-cleaning concepts.
+### Objective
 
-In the sales volume exercise, I had to identify and remove hidden spaces from the sales-volume values and confirm that the values were stored as numerical data before carrying out further analysis.
+The objective was to categorise sales volumes into different performance levels and analyse the results using a PivotTable.
 
-This demonstrated an important principle of data analysis:
+### What I Did
 
-> **Data needs to be clean and correctly formatted before reliable analysis can be performed.**
+I used the `SWITCH` function to categorise sales volumes as:
 
-### Real-world application
+- **High** – greater than 600
+- **Medium** – between 300 and 600
+- **Low** – below 300
 
-In a professional environment, datasets may contain:
+I also worked with the data to remove hidden spaces and ensure that sales volumes were stored as numerical values before analysis.
 
-* Extra spaces
-* Incorrect data types
-* Missing values
-* Inconsistent formatting
-* Duplicate records
-* Inconsistent naming conventions
+### 💡 Skills Demonstrated
 
-If these issues are not identified, calculations and analysis can produce misleading results.
+**SWITCH | Data Cleaning | Data Types | PivotTables | Categorisation**
 
-My Week 1 exercises therefore helped me understand that data analysis is not only about creating formulas — **preparing the data correctly is an essential part of the process.**
+### 💼 Real-World Application
 
----
+Categorising numerical data can make large datasets easier to interpret.
 
-# 📊 5. PivotTables
+For example, a business could classify:
 
-I developed practical experience creating and using **PivotTables** to summarise datasets.
+- Customers as Low / Medium / High value
+- Sales performance as Low / Medium / High
+- Risk levels as Low / Medium / High
+- Customer satisfaction into performance categories
 
-One of the projects involved analysing Bike Sales data using PivotTables and investigating performance across **country, age group and gender**.
-
-I used the PivotTable to identify patterns within the data and answer questions such as:
-
-* Which countries had the strongest performance?
-* Which age groups generated the most orders?
-* How did performance differ by gender?
-* Which markets contained customers from particular segments?
-
-### Real-world application
-
-PivotTables are highly useful in business analysis because they allow large datasets to be summarised quickly.
-
-For example, a sales analyst could use a PivotTable to analyse:
-
-**Sales → Region → Product → Month**
-
-This could allow a company to quickly identify:
-
-* Best-performing regions
-* Best-selling products
-* Monthly trends
-* Changes in customer behaviour
-
-PivotTables therefore provide a practical way of turning large datasets into information that can support decision-making.
+This can help stakeholders quickly identify areas that require attention.
 
 ---
 
-# 🔀 6. SWITCH Function
+# 📈 Project 5 – Data Visualisation
 
-I used the `SWITCH` function to categorise sales volumes into different performance levels.
+### Objective
 
-The exercise required:
+The objective was to transform analysed sales data into visualisations that could communicate patterns and comparisons more clearly.
 
-* Sales greater than 600 → **High**
-* Sales between 300 and 600 → **Medium**
-* Sales below 300 → **Low**
+### Visualisations Created
 
-The exercise also required a PivotTable summarising sales by county and product.
+- **Revenue vs Profit by Year**
+- **Product Revenue by Country**
+- **Revenue Comparison by Age Group**
 
-### Why this is useful
+### 💡 Skills Demonstrated
 
-Categorising numerical data makes it easier to interpret.
+**Charts | PivotCharts | Data Visualisation | Data Storytelling**
 
-Instead of looking at individual numbers such as:
+### 💼 Real-World Application
 
-`150, 250, 400, 600, 700, 800`
+Charts can be used in business reports and dashboards to communicate performance to stakeholders who may not have time to analyse raw datasets.
 
-the data can be grouped into:
-
-**Low → Medium → High**
-
-### Real-world application
-
-This approach could be applied to:
-
-* Customer spending levels
-* Sales performance
-* Employee performance
-* Risk ratings
-* Customer satisfaction
-* Product performance
-
-For example, a business could categorise customers as **Low, Medium or High value** based on their spending.
-
-This could then be used to identify which customer groups require additional attention.
+For example, management could use revenue and profit charts to quickly identify changes in financial performance, while product and country comparisons could highlight stronger or weaker markets.
 
 ---
 
-# 🎓 7. Student Grades Analysis
+# 💼 Applying Excel Skills in the Real World
 
-I worked with a student grades dataset containing English, Mathematics and Science results.
+The projects helped me understand how Excel can be used as part of a wider data-analysis process:
 
-The exercise involved creating an Excel Table and calculating each student's **average and highest score**.
+**Raw Data → Clean → Analyse → Summarise → Visualise → Communicate**
 
-I also used conditional formatting to make differences in performance easier to identify.
+In a real-world analyst role, I could use these skills to:
 
-### Real-world application
+- Analyse sales and financial performance
+- Identify trends and patterns
+- Compare products or regions
+- Analyse customer behaviour
+- Monitor KPIs
+- Prepare reports for stakeholders
+- Support evidence-based decision-making
 
-Although the dataset is based on student performance, the same analytical techniques can be applied to business datasets.
-
-For example, instead of subjects, a company could have:
-
-* Sales target
-* Customer service score
-* Productivity score
-
-The same approach could then be used to calculate an overall performance measure and highlight stronger or weaker results.
-
-This demonstrates how Excel skills can be transferred between different industries and datasets.
+The most important lesson was that the purpose of analysis is not simply to produce calculations. The goal is to **identify useful information and communicate what it means for the business**.
 
 ---
 
-# 📈 8. Data Visualisation
+# 📊 Business Analysis & Communication
 
-I also developed practical experience creating charts from analysed data.
+The Week 1 workbook also included a business scenario focused on **customer churn around the 12-month renewal point**.
 
-The Bike Sales visualisation project included charts for areas such as:
+I considered how Excel, PivotTables, formulas and charts could be used to investigate customer behaviour and communicate findings to senior stakeholders.
 
-* Revenue vs Profit by Year
-* Product Revenue by Country
-* Revenue Comparison by Age Group
+This helped me develop an understanding of how technical analysis connects with business decision-making.
 
-The purpose of these visualisations was to make trends and comparisons easier to understand.
+A useful approach is:
 
-### Why visualisation matters
-
-Large tables can contain a lot of information, but they can be difficult to interpret quickly.
-
-Charts allow patterns to be communicated more clearly.
-
-For example, a line chart can help show how revenue changes over time, while a comparison chart can make differences between countries or customer groups easier to identify.
-
-### Real-world application
-
-In a professional setting, I could use Excel charts to create reports or dashboards for:
-
-* Management
-* Finance teams
-* Sales teams
-* Project managers
-* Clients
-* Senior leadership
-
-The goal would not simply be to create a visually appealing chart, but to use the visualisation to communicate a meaningful finding.
+**What happened? → Why does it matter? → What could be done next?**
 
 ---
 
-# 💼 Applying These Skills in a Real-World Setting
+# 📁 Project Files
 
-The biggest learning outcome from Week 1 was understanding how individual Excel functions can work together as part of a wider data-analysis process.
+This repository contains the Excel datasets and workbooks used throughout the Week 1 projects.
 
-A typical real-world workflow could look like:
+### Retail Sales
+Retail sales dataset and analysis.
 
-### 1. Collect the data
+### Bike Sales & SWITCH
+Bike sales PivotTable analysis and sales categorisation using `SWITCH`.
 
-Receive data from a business system, spreadsheet or other source.
-
-### 2. Clean the data
-
-Check for:
-
-* Missing information
-* Incorrect formats
-* Hidden spaces
-* Incorrect data types
-* Inconsistent values
-
-### 3. Structure the data
-
-Convert the information into an Excel Table so that it can be managed consistently.
-
-### 4. Analyse the data
-
-Use formulas such as:
-
-* `SUM`
-* `AVERAGE`
-* `MAX`
-* `COUNT`
-* `COUNTIF`
-* `VLOOKUP`
-
-to calculate and retrieve useful information.
-
-### 5. Summarise the data
-
-Use PivotTables to break the information down by categories such as:
-
-* Country
-* Product
-* Age group
-* Gender
-* Time period
-
-### 6. Identify patterns
-
-Look for differences, trends and areas that may require further investigation.
-
-### 7. Visualise the findings
-
-Use charts to communicate the most important patterns.
-
-### 8. Communicate the insight
-
-Present the findings in a way that allows a stakeholder to understand:
-
-**What happened → Why it matters → What should happen next**
-
-This is how I would aim to use Excel as a practical business-analysis tool rather than simply as a spreadsheet application.
+### Bike Sales Visualisations
+Charts and visualisations created from the Bike Sales data.
 
 ---
 
-# 🏢 Business Analysis and Communication
+# 🛠️ Tools & Technologies
 
-The final part of Week 1 also focused on presenting analysis to senior stakeholders.
-
-The exercise considered a scenario where customers were leaving a business around the **12-month renewal point**. I used British Gas as the organisation for the exercise and considered how customer data could be analysed to understand potential churn patterns.
-
-I considered using Excel, PivotTables, formulas such as `COUNTIFS` and `IF`, and charts such as bar and line charts to communicate the findings.
-
-This helped me understand that data analysis is not complete when a calculation has been made.
-
-The analyst also needs to be able to:
-
-* Explain what the data shows
-* Identify the key finding
-* Consider the business impact
-* Communicate findings clearly
-* Adapt the level of detail to the audience
-* Support recommendations with evidence
-
-This is particularly important when presenting analysis to senior decision-makers.
+- Microsoft Excel
+- Excel Tables
+- Excel formulas and functions
+- PivotTables
+- PivotCharts
+- Conditional Formatting
+- Data Cleaning
+- Data Visualisation
 
 ---
 
-# 📁 Repository Contents
+# 🚀 Key Takeaway
 
-This repository contains the Excel work completed during Week 1:
+Week 1 gave me a strong foundation in **Excel-based data analysis**.
 
-### `retail_sales_dataset.xlsx`
+I developed the ability to structure datasets, perform calculations, identify patterns, summarise information and communicate findings through visualisations.
 
-Contains the retail sales analysis and associated Excel exercises, including calculations, filtering and lookup-based analysis.
-
-### `Bike Sales and SWITCH dataset.xlsx`
-
-Contains the Bike Sales PivotTable analysis and the sales-volume categorisation exercise using the `SWITCH` function.
-
-### `Bike Sales Visualisations.xlsx`
-
-Contains the Bike Sales visualisation work and charts created from the analysed data.
-
-### `Screenshots/`
-
-Contains screenshots demonstrating the Excel work and visualisations included within this project.
-
----
-
-# 📸 Project Screenshots
-
-## Retail Sales Analysis
-
-This screenshot demonstrates the use of Excel Tables, filtering and calculations when analysing retail sales data.
-
-
-## Student Grades Analysis
-
-This screenshot demonstrates the calculation of average and highest scores and the use of conditional formatting to make performance differences easier to identify.
-
-
-## Bike Sales PivotTable
-
-This screenshot demonstrates how PivotTables can be used to summarise and analyse sales data across countries, age groups and gender.
-
-
-## SWITCH Sales Categorisation
-
-This screenshot demonstrates the use of the SWITCH function to categorise sales volumes into High, Medium and Low performance levels.
-
-
-## Revenue vs Profit
-
-This visualisation compares revenue and profit across different years, making changes in financial performance easier to identify.
-
-
-## Product Revenue by Country
-
-This chart compares product revenue across countries and helps identify differences in product performance between markets.
-
-
-## Revenue by Age Group
-
-This visualisation compares revenue across different customer age groups and demonstrates how customer segmentation can be used to analyse sales performance.
-
-
-# 🚀 Key Learning Outcomes
-
-Through these projects, I developed practical experience in using Excel to:
-
-* Structure datasets
-* Clean data
-* Perform calculations
-* Retrieve information using lookups
-* Filter and sort records
-* Summarise data using PivotTables
-* Categorise information using logical functions
-* Apply conditional formatting
-* Create data visualisations
-* Identify trends and patterns
-* Communicate findings in a business context
-
-More importantly, I developed an understanding of how these individual skills can be combined into a wider **data-analysis workflow**.
-
-This foundation will allow me to build on my Excel knowledge as I progress into more advanced areas of data analysis, including **SQL, Power BI, Tableau, Python and Azure**.
-
----
-
-## 🧰 Tools Used
-
-* **Microsoft Excel**
-* Excel Tables
-* Excel formulas and functions
-* PivotTables
-* PivotCharts
-* Conditional Formatting
-* Data filtering and sorting
-
----
-
-## 📚 About the Project
-
-**Programme:** Data Technician Bootcamp
-**Week:** Week 1
-**Focus:** Excel and Data Analysis
-
-This project forms part of my developing data portfolio and demonstrates my ability to apply Excel techniques to structured datasets and consider how those techniques can be used to solve real-world business problems.
+These skills provide a foundation for progressing into more advanced data tools including **Tableau, Power BI, SQL and Python**.
