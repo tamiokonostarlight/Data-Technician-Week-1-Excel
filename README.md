@@ -454,57 +454,36 @@ Contains screenshots demonstrating the Excel work and visualisations included wi
 
 This screenshot demonstrates the use of Excel Tables, filtering and calculations when analysing retail sales data.
 
-![Retail Sales Analysis](Screenshots/retail-sales-analysis.png)
-
----
 
 ## Student Grades Analysis
 
 This screenshot demonstrates the calculation of average and highest scores and the use of conditional formatting to make performance differences easier to identify.
 
-![Student Grades Analysis](Screenshots/student-grades.png)
-
----
 
 ## Bike Sales PivotTable
 
 This screenshot demonstrates how PivotTables can be used to summarise and analyse sales data across countries, age groups and gender.
 
-![Bike Sales PivotTable](Screenshots/bike-sales-pivottable.png)
-
----
 
 ## SWITCH Sales Categorisation
 
 This screenshot demonstrates the use of the SWITCH function to categorise sales volumes into High, Medium and Low performance levels.
 
-![SWITCH Analysis](Screenshots/switch-analysis.png)
-
----
 
 ## Revenue vs Profit
 
 This visualisation compares revenue and profit across different years, making changes in financial performance easier to identify.
 
-![Revenue vs Profit](Screenshots/revenue-vs-profit.png)
-
----
 
 ## Product Revenue by Country
 
 This chart compares product revenue across countries and helps identify differences in product performance between markets.
 
-![Product Revenue by Country](Screenshots/product-revenue-country.png)
-
----
 
 ## Revenue by Age Group
 
 This visualisation compares revenue across different customer age groups and demonstrates how customer segmentation can be used to analyse sales performance.
 
-![Revenue by Age Group](Screenshots/revenue-age-group.png)
-
----
 
 # 🚀 Key Learning Outcomes
 
